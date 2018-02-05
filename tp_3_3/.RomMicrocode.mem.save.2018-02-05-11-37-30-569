@@ -14,6 +14,6 @@
 	<Word adr="240" val="0x0_0000_0000_0001_0000/ ;PETICION DEL BUS"/>
 	<Word val="0x0_0000_0003_C024_0000/ ;ASIGNACION RI de la inst de mem[pc]"/>
 	<Word val="0x1_2100_023F_C800_0000/ ; PC = PC + 2"/>
-	<Word val="0x1_0300_0080_1000_1800/ ; SALTO A 0X08"/>
+	<Word val="0x1_0300_0080_1000_1800/ "/>
 	<Word val="0x0_0000_0000_0000_0000/ "/>
 </MemoryImage>
