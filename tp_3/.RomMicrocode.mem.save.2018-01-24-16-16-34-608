@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><MemoryImage>
+	<Word adr="0" val="0x1_2300_0000_0801_0000/ RO &lt;- 0   BR =1"/>
+	<Word val="0x0_0000_0000_0000_0000/ SP&lt;-M(R0)  DR = 1"/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+</MemoryImage>
