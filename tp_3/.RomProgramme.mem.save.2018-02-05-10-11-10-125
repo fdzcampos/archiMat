@@ -5,6 +5,6 @@
 	<Word adr="5" val="0x3031/loop:    ; MOV R3, R1 (R3 ← R1)"/>
 	<Word val="0x3012/         ; MOV R1, R2 (R1 ← R2)"/>
 	<Word val="0x3023/         ; MOV R2, R3 (R2 ← R3)"/>
-	<Word val="0x51F8/         ; B loop"/>
+	<Word val="0x5100/         ; B loop"/>
 	<Word val="0xUUUU"/>
 </MemoryImage>

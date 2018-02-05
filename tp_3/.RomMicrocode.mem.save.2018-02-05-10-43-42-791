@@ -6,14 +6,14 @@
 	<Word val="0x0_0000_0000_0002_08F0/ "/>
 	<Word val="0x0_0000_0003_C001_0000/ "/>
 	<Word val="0x0_0000_0000_0000_0000/ "/>
-	<Word adr="8" val="0x1_2300_0080_1800_08F0/ "/>
+	<Word adr="8" val="0x1_2300_0080_1800_0000/ "/>
 	<Word val="0x0_0000_0000_0000_08F0/ "/>
 	<Word val="0x0_0000_0000_0000_0000/ "/>
-	<Word adr="16" val="0x1_4100_003F_C800_0000/ programar el loop PC = PC + extSigno"/>
+	<Word adr="16" val="0x0_0000_0000_0000_0000/ programar el loop"/>
 	<Word val="0x0_0000_0000_0000_0000/ "/>
 	<Word adr="240" val="0x0_0000_0000_0001_0000/ ;PETICION DEL BUS"/>
 	<Word val="0x0_0000_0003_C024_0000/ ;ASIGNACION RI de la inst de mem[pc]"/>
-	<Word val="0x1_2100_023F_C800_0000/ ; PC = PC + 2"/>
-	<Word val="0x1_0300_0080_1000_1800/ "/>
+	<Word val="0x1_2100_023F_C800_1800/ ; PC = PC + 2"/>
+	<Word val="0x1_2300_0080_1800_1800/ "/>
 	<Word val="0x0_0000_0000_0000_0000/ "/>
 </MemoryImage>

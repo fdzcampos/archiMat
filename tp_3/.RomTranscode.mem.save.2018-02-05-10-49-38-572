@@ -3,6 +3,4 @@
 	<Word val="0xUU"/>
 	<Word adr="48" val="0x08"/>
 	<Word val="0xUU"/>
-	<Word adr="81" val="0x10"/>
-	<Word val="0xUU"/>
 </MemoryImage>
