@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><MemoryImage>
+	<Word adr="0" val="0x08"/>
+	<Word val="0xUU"/>
+	<Word adr="17" val="0x11"/>
+	<Word val="0x16"/>
+	<Word val="0x18"/>
+	<Word val="0x1A"/>
+	<Word val="0x1C"/>
+	<Word val="0x1E"/>
+	<Word val="0x20"/>
+	<Word val="0xUU"/>
+	<Word adr="32" val="0x22"/>
+	<Word val="0x24"/>
+	<Word val="0x26"/>
+	<Word val="0x28"/>
+	<Word val="0x2A"/>
+	<Word val="0x2C"/>
+	<Word val="0x2E"/>
+	<Word val="0xUU"/>
+	<Word adr="48" val="0x08"/>
+	<Word val="0x13"/>
+	<Word val="0xUU"/>
+	<Word adr="81" val="0x10"/>
+	<Word val="0xUU"/>
+	<Word adr="95" val="0x16"/>
+	<Word val="0xUU"/>
+</MemoryImage>

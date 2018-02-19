@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><MemoryImage>
+	<Word adr="0" val="0x1_2000_0000_0825_0000/ RO &lt;- 0   BR =1"/>
+	<Word val="0x0_4000_0034_0804_0000/ SP&lt;-M(R0)  DR = 1"/>
+	<Word val="0x1_0000_0204_0800_0000/ R1&lt;-2"/>
+	<Word val="0x0_0300_003C_4804_0000/ PC &lt;- M(R1), DR =1 "/>
+	<Word val="0x0_0000_0000_0002_08F0/ "/>
+	<Word val="0x0_0000_0003_C001_0000/ "/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+	<Word adr="8" val="0x1_2300_0080_1800_08F0/ ;inst mov"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; salto al fetch"/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+	<Word adr="16" val="0x1_4100_003F_C800_0000/ inst salto B ,,  PC = PC + extSigno"/>
+	<Word val="0x1_6100_0080_1800_0018/ ; add ra rb"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x0_6200_0080_1040_0000/ ; cmp"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+	<Word val="0x1_6200_0080_1800_0000/ ;sub ra rb"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x1_2300_0080_1800_0000/ ; copy ra rb"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x1_6400_0080_1800_0000/ ; or"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x1_6500_0080_1800_0000/ ; xor"/>
+	<Word val="0x0_0000_0000_0000_08F0/ ; fetch"/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+	<Word adr="240" val="0x0_0000_0000_0001_0000/ ;PETICION DEL BUS"/>
+	<Word val="0x0_0000_0003_C024_0000/ ;ASIGNACION RI de la inst de mem[pc]"/>
+	<Word val="0x1_2100_023F_C800_0000/ ; PC = PC + 2"/>
+	<Word val="0x1_0300_0080_1000_1800/ ; SALTO A la instruccion cargada"/>
+	<Word val="0x0_0000_0000_0000_0000/ "/>
+</MemoryImage>
